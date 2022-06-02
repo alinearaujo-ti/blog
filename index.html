@@ -1,20 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/styles/main.css">
-  <title>Blog</title>
-</head>
-<body>
-    <nav>
-      <a id="home" href="#">Home</a>
-      <ul>
-        <li><a href="#">Sobre Mim</a></li>
-        <li><a href="#">Estudos</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <title>Blog</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Aline Araujo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre Mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portífolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-</body>
+    <section class="container-fluid d-flex justify-content-evenly" id="apresentation">
+      <div id="left-side">
+        <h1>Oi, eu sou a Aline :)</h1>
+        <h2>Graduanda em Sistemas de Informação.</h2>
+      </div>
+      <div id="right-side">
+        <div id="quadro"></div>
+        <img src="src/images/aline.jpeg" alt="">
+      </div>
+    </section>
+    <section class="container-fluid" id="first-sentence">
+      <h3>Qualquer um pode escrever um código que um computador possa entender. Bons programadores escrevem códigos que humanos podem entender.</h3>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
